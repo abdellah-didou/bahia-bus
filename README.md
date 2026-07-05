@@ -1,9 +1,15 @@
 # Bahia Bus — installable web app
 
-Live: **https://abdellah-didou.github.io/bahia-bus/**
+**Live app:** https://abdellah-didou.github.io/bahia-bus/
 
-Scan the QR (or open the link) on any phone, then **Add to Home Screen** to
-install. Works on Android and iOS — no app store, no APK.
+Scan to install on any phone (Android + iOS):
 
-This repo holds only the built web app (Flutter web / PWA). The source code is
-in a separate private repository.
+<img src="install_qr.png" alt="Scan to install Bahia Bus" width="240">
+
+Then **Add to Home Screen** (iPhone: Share → *Sur l'écran d'accueil*; Android: *Installer l'application*). No app store, no APK.
+
+Planificateur de trajets bus & tram pour Oran — itinéraires, lignes, arrêts proches, guidage en direct (FR / AR).
+
+---
+
+This repository holds only the built web app (Flutter web / PWA). The source code lives in a separate private repository.
