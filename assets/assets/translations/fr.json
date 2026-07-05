@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "plan": "Itinéraire",
+    "lines": "Lignes",
+    "nearby": "À proximité"
+  },
+  "home": {
+    "savedPlaces": "Lieux enregistrés",
+    "explore": "Explorer",
+    "openMap": "Ouvrir la carte"
+  },
+  "common": {
+    "reset": "Réinitialiser",
+    "settings": "Paramètres",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "tryAgain": "Réessayer",
+    "failed": "Échec : {error}",
+    "done": "Terminé",
+    "min": "min"
+  },
+  "language": {
+    "title": "Langue",
+    "french": "Français",
+    "arabic": "العربية"
+  },
+  "plan": {
+    "loading": "Chargement du réseau d’Oran…",
+    "loadError": "Impossible de charger le réseau",
+    "locationOff": "Activez la localisation pour voir où vous êtes.",
+    "mapStyle": "Style de carte",
+    "myLocation": "Ma position",
+    "stopFollowing": "Arrêter le suivi",
+    "wholeNetwork": "Voir tout le réseau",
+    "subtitle": "Oran • {count} lignes"
+  },
+  "planner": {
+    "chooseStart": "Choisir le point de départ",
+    "whereTo": "Où allez-vous ?",
+    "useMyLocation": "Ma position",
+    "swap": "Inverser",
+    "tapStart": "Touchez la carte pour définir le départ",
+    "tapDest": "Touchez la carte pour définir la destination",
+    "routes": "{count} itinéraires",
+    "hint": "Définissez un départ et une destination — cherchez un lieu, touchez la carte, ou utilisez votre position.",
+    "direct": "Direct",
+    "transfers": "{count} correspondance(s)",
+    "walkLeg": "Marchez {meters} m jusqu’à {to}",
+    "rideLeg": "Prenez {line} de {from} à {to} ({stops} arrêts)"
+  },
+  "fare": {
+    "amount": "{amount} DA",
+    "free": "Gratuit — à pied",
+    "save": "économisez {amount} DA",
+    "vsTaxi": "taxi ~{amount} DA"
+  },
+  "trip": {
+    "start": "Démarrer le trajet",
+    "end": "Terminer le trajet",
+    "enRoute": "En route",
+    "step": "Étape {n}/{total}",
+    "inMeters": "dans {meters} m",
+    "walkTo": "Marchez jusqu’à {to}",
+    "rideTo": "Prenez {line} jusqu’à {to}",
+    "getOffSoon": "Préparez-vous à descendre",
+    "getOff": "Descendez à {stop}",
+    "next": "Ensuite",
+    "arrived": "Vous êtes arrivé !",
+    "arrivedSub": "Bon trajet avec Bahia Bus.",
+    "locationNeeded": "Activez la localisation pour le guidage en direct."
+  },
+  "onboarding": {
+    "tagline": "Vos trajets à Oran, simplifiés.",
+    "prop1title": "Planifiez de porte à porte",
+    "prop1sub": "Bus, tram et marche combinés en un seul itinéraire.",
+    "prop2title": "Voyez le prix et l’économie",
+    "prop2sub": "Le tarif du trajet et ce que vous gagnez face au taxi.",
+    "prop3title": "Guidage en direct",
+    "prop3sub": "On vous prévient quand descendre à votre arrêt.",
+    "enableLocation": "Autoriser ma position",
+    "start": "Commencer"
+  },
+  "search": {
+    "startHint": "Rechercher le point de départ",
+    "whereTo": "Où allez-vous ?",
+    "useCurrentLocation": "Utiliser ma position actuelle",
+    "setStartOnMap": "Définir le départ sur la carte",
+    "setDestOnMap": "Définir la destination sur la carte",
+    "unavailable": "Recherche indisponible — vérifiez votre connexion, ou choisissez le point sur la carte.",
+    "busStop": "Arrêt de bus",
+    "stop": "Arrêt"
+  },
+  "places": {
+    "home": "Domicile",
+    "work": "Travail",
+    "setHome": "Ajouter le domicile",
+    "setWork": "Ajouter le travail",
+    "recent": "Récents",
+    "recentTrips": "Trajets récents",
+    "clear": "Effacer",
+    "saveAsHome": "Enregistrer comme domicile",
+    "saveAsWork": "Enregistrer comme travail"
+  },
+  "favorites": {
+    "toggle": "Favori",
+    "title": "Favoris",
+    "lines": "Lignes favorites",
+    "stops": "Arrêts favoris",
+    "empty": "Aucun favori — touchez ♡ sur une ligne ou un arrêt.",
+    "seeAll": "Voir tout"
+  },
+  "mode": {
+    "bus": "Bus",
+    "tram": "Tram"
+  },
+  "lines": {
+    "title": "Lignes de bus",
+    "searchHint": "Rechercher une ligne ou un arrêt…",
+    "none": "Aucune ligne trouvée",
+    "newLine": "Nouvelle ligne",
+    "stops": "{count} arrêts",
+    "roadMapped": "tracé routier"
+  },
+  "lineDetail": {
+    "notFound": "Ligne introuvable",
+    "edit": "Modifier la ligne",
+    "showOnPlanner": "Voir sur la carte des itinéraires",
+    "stopsInOrder": "Arrêts dans l’ordre",
+    "followsRoads": "suit les routes",
+    "outbound": "Aller",
+    "return": "Retour"
+  },
+  "stopDetail": {
+    "notFound": "Arrêt introuvable",
+    "fromHere": "Depuis ici",
+    "toHere": "Vers ici",
+    "linesServe": "{count} ligne(s) desservent cet arrêt"
+  },
+  "nearby": {
+    "title": "Arrêts à proximité",
+    "refresh": "Actualiser la position",
+    "off": "Localisation désactivée ou refusée",
+    "fail": "Impossible d’obtenir votre position",
+    "allow": "Autorisez la localisation pour voir les arrêts les plus proches.",
+    "tryAgain": "Réessayer"
+  },
+  "admin": {
+    "access": "Accès administrateur",
+    "enterPass": "Entrez le code pour modifier les lignes et arrêts",
+    "passcode": "Code d’accès",
+    "unlock": "Déverrouiller",
+    "guestNote": "Les invités n’en ont pas besoin — l’itinéraire, les lignes et les arrêts proches fonctionnent sans connexion.",
+    "unlocked": "Mode admin activé — édition possible",
+    "mode": "Mode administrateur",
+    "liveNote": "Les modifications s’appliquent en direct pour tous",
+    "editLines": "Modifier les lignes",
+    "editLinesSub": "Ouvrez l’onglet Lignes et touchez une ligne",
+    "recompute": "Recalculer les tracés routiers",
+    "recomputeSub": "Recalculer toutes les lignes sur les routes (OSRM)",
+    "changePass": "Changer le code",
+    "changePassSub": "Faire tourner le code administrateur",
+    "signOut": "Se déconnecter de l’admin",
+    "signOutSub": "Revenir en mode invité sur cet appareil",
+    "recomputing": "Recalcul des tracés…",
+    "reRouted": "{count} lignes recalculées sur les routes",
+    "newPasscode": "Nouveau code",
+    "passUpdated": "Code mis à jour"
+  },
+  "editor": {
+    "newStop": "Nouvel arrêt",
+    "enterId": "Entrez un numéro / ID de ligne",
+    "needTwoStops": "Une ligne doit avoir au moins 2 arrêts",
+    "sessionExpired": "Session admin expirée — déverrouillez à nouveau",
+    "saved": "Enregistré — en direct pour tous",
+    "saveFailed": "Échec de l’enregistrement : {error}",
+    "deleteTitle": "Supprimer {name} ?",
+    "deleteBody": "Cela supprime toute la ligne pour tout le monde. Les arrêts utilisés uniquement par cette ligne sont retirés.",
+    "deleted": "Ligne supprimée",
+    "deleteFailed": "Échec de la suppression : {error}",
+    "newLine": "Nouvelle ligne",
+    "editLine": "Modifier {name}",
+    "deleteLine": "Supprimer la ligne",
+    "tapMove": "Touchez la carte pour déplacer « {name} »",
+    "autoNameOn": "Nom auto : activé",
+    "autoNameOff": "Nom auto : désactivé",
+    "lineId": "ID de ligne (ex. 59, P3)",
+    "lineName": "Nom de la ligne",
+    "stops": "Arrêts",
+    "tapAdd": "Touchez la carte pour ajouter un arrêt. Touchez une pastille (ou une ligne) pour renommer, déplacer ou supprimer.",
+    "noStops": "Aucun arrêt — touchez la carte pour ajouter le premier.",
+    "stopN": "Arrêt {n}",
+    "nameFr": "Nom (français)",
+    "nameAr": "الاسم (arabe)",
+    "autoName": "Nom auto",
+    "move": "Déplacer",
+    "deleteStop": "Supprimer l’arrêt",
+    "lineColour": "Couleur de la ligne",
+    "saving": "Enregistrement…",
+    "saveApply": "Enregistrer — appliquer en direct",
+    "modeStops": "Arrêts",
+    "modeGuide": "Guides",
+    "modeDraw": "Dessiner",
+    "guideHint": "Touchez la carte pour poser un point qui force le tracé à passer par cette rue. Touchez un point pour l’enlever.",
+    "clearGuides": "Effacer",
+    "drawHint": "Glissez le doigt le long de la vraie route ; le tracé se colle aux rues.",
+    "drawRelease": "Relâchez pour coller le tracé aux rues…",
+    "matching": "Alignement sur les rues…",
+    "matchFailed": "Impossible d’aligner ce tracé. Réessayez plus près des rues.",
+    "routing": "Calcul de l’itinéraire…",
+    "locked": "Tracé dessiné à la main (verrouillé)",
+    "unlock": "Auto"
+  },
+  "route": {
+    "start": "Départ",
+    "destination": "Destination",
+    "pinned": "Lieu épinglé",
+    "myLocation": "Ma position",
+    "locationUnavailable": "Position indisponible — cherchez un lieu ou définissez-le sur la carte.",
+    "noRoute": "Aucun itinéraire trouvé entre ces points."
+  }
+}
