@@ -219,5 +219,8 @@
     "myLocation": "Ma position",
     "locationUnavailable": "Position indisponible — cherchez un lieu ou définissez-le sur la carte.",
     "noRoute": "Aucun itinéraire trouvé entre ces points."
+  },
+  "offline": {
+    "mapBanner": "Hors ligne — fond de carte indisponible. Itinéraires, lignes et arrêts restent utilisables."
   }
 }
