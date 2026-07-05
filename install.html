@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Installer Bahia Bus</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <style>
+    :root { --navy:#07203A; --blue:#0E63D6; --red:#FB2C53; --ink:#0F1A24; --muted:#5A6B7B; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(160deg, #07203A 0%, #0A49A0 55%, #0E63D6 100%);
+      color: var(--ink); display: flex; align-items: center; justify-content: center; padding: 24px;
+    }
+    .card {
+      background: #fff; border-radius: 24px; max-width: 420px; width: 100%;
+      padding: 28px 24px 24px; box-shadow: 0 20px 60px rgba(0,0,0,.35); text-align: center;
+    }
+    .logo { width: 76px; height: 76px; border-radius: 20px; display: block; margin: 0 auto 14px; }
+    h1 { margin: 0 0 2px; font-size: 26px; letter-spacing: -0.5px; color: var(--navy); }
+    .tag { margin: 0 0 22px; color: var(--muted); font-size: 14px; }
+    a.btn {
+      display: flex; align-items: center; gap: 12px; text-decoration: none; text-align: left;
+      border-radius: 16px; padding: 15px 18px; margin: 10px 0; font-weight: 700; font-size: 15px;
+      border: 1.5px solid #E7ECF1; color: var(--ink); transition: transform .05s;
+    }
+    a.btn:active { transform: scale(.985); }
+    a.android { background: var(--blue); color: #fff; border-color: var(--blue); }
+    a.ios { background: #fff; }
+    .btn .ico { font-size: 22px; line-height: 1; }
+    .btn small { display: block; font-weight: 500; font-size: 12.5px; opacity: .8; margin-top: 2px; }
+    .note { font-size: 12px; color: var(--muted); margin-top: 16px; line-height: 1.5; }
+    .hr { height: 1px; background: #E7ECF1; margin: 18px 0 6px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="logo" src="icons/Icon-192.png" alt="Bahia Bus">
+    <h1>Bahia Bus</h1>
+    <p class="tag">Bus &amp; tram d'Oran — itinéraires, lignes, arrêts</p>
+
+    <a class="btn android" href="https://github.com/abdellah-didou/bahia-bus/releases/latest/download/bahia-bus.apk">
+      <span class="ico">🤖</span>
+      <span>Android — Télécharger l'application
+        <small>Fichier APK · autoriser « sources inconnues »</small>
+      </span>
+    </a>
+
+    <a class="btn ios" href="./">
+      <span class="ico">📱</span>
+      <span>iPhone / iPad — Ouvrir l'app web
+        <small>Puis Partager → « Sur l'écran d'accueil »</small>
+      </span>
+    </a>
+
+    <div class="hr"></div>
+    <p class="note">Sur ordinateur, ouvrez simplement l'app web.<br>
+      L'app fonctionne hors-ligne après la première ouverture.</p>
+  </div>
+</body>
+</html>
