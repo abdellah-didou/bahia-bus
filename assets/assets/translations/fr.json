@@ -45,6 +45,9 @@
     "tapDest": "Touchez la carte pour définir la destination",
     "routes": "{count} itinéraires",
     "hint": "Définissez un départ et une destination — cherchez un lieu, touchez la carte, ou utilisez votre position.",
+    "needStart": "Choisissez maintenant votre point de départ.",
+    "needDest": "En attente de la destination — choisissez où vous allez.",
+    "locating": "Localisation en cours…",
     "direct": "Direct",
     "transfers": "{count} correspondance(s)",
     "walkLeg": "Marchez {meters} m jusqu’à {to}",
@@ -142,8 +145,11 @@
     "title": "Arrêts à proximité",
     "refresh": "Actualiser la position",
     "off": "Localisation désactivée ou refusée",
+    "serviceOff": "La localisation de l’appareil est désactivée",
     "fail": "Impossible d’obtenir votre position",
     "allow": "Autorisez la localisation pour voir les arrêts les plus proches.",
+    "turnOn": "Activez la localisation (GPS) pour voir les arrêts les plus proches.",
+    "openSettings": "Ouvrir les réglages",
     "tryAgain": "Réessayer"
   },
   "admin": {
